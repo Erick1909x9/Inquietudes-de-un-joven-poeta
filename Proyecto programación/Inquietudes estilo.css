@@ -1,0 +1,135 @@
+*{box-sizing: border-box;
+font-family: sans-serif;
+
+
+}
+
+
+h1{font-size: 1.5em;}
+h2{font-size: 1em}
+h3{font-size: 1em;}
+p{font-size: 1em;}
+
+body{
+    align-items: center;
+    justify-content: center;
+    font-family:sans-serif;
+    background-color: blueviolet;
+margin: 0;
+
+
+}
+button{ font-size: 1em;font-weight: bold; padding: 5px 10px; border-radius:10px; border: 1px solid;
+     border-color: rgb(37, 243, 99); background-color:pink;}
+
+button:hover{background-color: rgb(221, 168, 177);}   
+
+Table{color: blanchedalmond; font-size: 14px;font-family:'Times New Roman', Times, serif;
+border-collapse: collapse; table-layout:fixed ;align-items: center;justify-content: center;}
+
+thead{background-color: rgb(185, 24, 24);}
+
+th{padding: 4px 12px; font-weight: 600;text-transform: uppercase;}
+
+td{padding: 4px 12px;
+border-bottom: solid 1px rgb(37, 243, 99);}
+
+.container{max-width: 12010px;
+margin: auto;}
+
+
+header{background-color: rgb(0, 0, 0);
+padding: 1px;
+
+}
+header .logo{margin: .75;
+padding: 1px 1px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2em;
+color: aquamarine;
+font-weight: bold;}
+
+header .container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header nav{display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25xp;}
+
+header a{padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+color: azure;}
+
+#hero{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+ color: white;
+ background-image: -moz-linear-gradient(
+    0deg,
+    rgba(0,0,0,0,5),
+    rgba(0,0,0,0,5));
+    background-image: url(fotosp/HeroFoto.jpg);
+}
+
+#Musa .container{
+text-align: center;
+padding: 60px 60px;
+
+}
+
+#Si-fueras-música .container{
+    text-align: center;
+    padding: 60px 12px;
+    background-color: rgb(30,30,30);
+    color: aliceblue;
+    }
+    
+    #El-piropo .container{
+        text-align: center;
+        padding: 80px 60px;
+        background-color: aquamarine;
+        }
+
+        #Uno-más .container{
+            text-align: center;
+            padding: 60px 12px;
+            background-color: rgb(255, 160, 17);
+            }
+
+            
+            #Amor-lejano .container{
+                text-align: center;
+                padding: 60px 12px;
+                
+                }
+                #Tabla .container{
+                    align-items: center;
+                    text-align: center;
+                    padding: 60px 12px;
+                    background-color: black;
+                    }
+
+                    #marca-agua{text-align: end;}
+
+                    @media (min-width:720px){
+
+                        header{position: fixed;
+                        width: 100%;}
+
+header .container{flex-direction: row;
+justify-content: space-between;}
+
+header .nav{flex-direction: row;
+
+padding-bottom:1;
+padding-right:20px;
+}
